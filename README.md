@@ -47,6 +47,56 @@ D — Dependency Inversion Principle
 - Avoid direct calls between code units
 + use interfaces or abstractions.
 
+
+
+Here's a brief overview of when to use these design patterns:
+
+Singleton:
+
+Use when you need exactly one instance of a class throughout the application.
+Examples: managing a shared resource, coordinating actions across the system.
+
+
+Strategy:
+
+Use when you have multiple algorithms for a specific task and want to decide which one to use at runtime.
+Examples: different sorting algorithms, various payment methods in a shopping cart.
+
+
+Factory:
+
+Use when you need to create objects without specifying the exact class of object to create.
+Examples: creating different types of documents in a document processing application, instantiating different types of enemies in a game.
+
+
+Observer:
+
+Use when you have a one-to-many dependency between objects, where multiple objects need to be notified when one object changes state.
+Examples: event handling systems, implementing a subscription mechanism.
+
+
+Decorator:
+
+Use when you need to add responsibilities to objects dynamically without affecting other objects of the same class.
+Examples: adding features to a basic text editor (spell check, line numbering), customizing a beverage order.
+
+
+Builder:
+
+Use when you need to construct complex objects step by step, allowing you to produce different types and representations of an object using the same construction code.
+Examples: building different types of houses, creating complex SQL queries.
+
+
+
+Each pattern addresses specific design problems:
+
+Singleton manages global state.
+Strategy makes algorithms interchangeable.
+Factory centralizes object creation.
+Observer implements distributed event handling.
+Decorator adds responsibilities dynamically.
+Builder separates complex object construction from its representation.
+
   
 </em>
 </strong>
