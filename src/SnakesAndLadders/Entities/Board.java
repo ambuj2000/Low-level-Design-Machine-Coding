@@ -54,6 +54,7 @@ public class Board {
             System.out.println(" " + index);
             if(index%dimension==0){
                 System.out.println("\n");
+
             }
         }
     }
