@@ -25,6 +25,7 @@ public abstract class BoardEntity {
         this.end = end;
     }
 
+    public abstract String getString(int index);
     public abstract String getEncounterMessage();
 
 }

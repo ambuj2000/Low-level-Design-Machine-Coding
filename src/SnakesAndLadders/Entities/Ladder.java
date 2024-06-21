@@ -6,6 +6,11 @@ public class Ladder extends BoardEntity {
     }
 
     @Override
+    public String getString(int index) {
+        return "L: "+index;
+    }
+
+    @Override
     public String getEncounterMessage() {
         return "Encountered a Ladder";
     }

@@ -6,6 +6,11 @@ public class Snake extends BoardEntity {
     }
 
     @Override
+    public String getString(int index) {
+        return "S: "+index;
+    }
+
+    @Override
     public String getEncounterMessage() {
         return "Encountered a Snake";
     }
