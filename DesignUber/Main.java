@@ -52,6 +52,7 @@ public class Main {
 
         HashMap<Integer, Trip> tripsMap = tripManager.getTripsInfo();
 
+
         for (Map.Entry<Integer, Trip> entry : tripsMap.entrySet()) {
             entry.getValue().displayTripDetails();
         }
