@@ -1,6 +1,5 @@
 package DesignUber;
 
-
 import DesignUber.Entity.Driver;
 import DesignUber.Entity.Location;
 import DesignUber.Entity.Rider;
