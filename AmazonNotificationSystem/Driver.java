@@ -45,6 +45,5 @@ public class Driver {
         iphone.setData(0);
 
         iphone.setData(100);
-
     }
 }
